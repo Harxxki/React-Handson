@@ -14,7 +14,7 @@ function Header() {
 }
 
 function Main() {
-  const [foo, setData] = React.useState(
+  const [charactorName, setData] = React.useState(
     "Press the button to get the Star Wars characters!"
   );
   const handleClick = () => {
@@ -36,7 +36,7 @@ function Main() {
       </div>
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <p>{foo}</p>
+          <p>{charactorName}</p>
         </div>
       </div>
     </main>
